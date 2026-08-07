@@ -1,16 +1,16 @@
 class Ojo < Formula
   desc "Security scanner for dependencies, secrets, misconfiguration, and code"
   homepage "https://github.com/colibrisec/ojo"
-  version "0.0.6"
+  version "0.0.7"
   license "GPL-2.0-only"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/colibrisec/ojo/releases/download/v0.0.6/ojo_v0.0.6_darwin_arm64"
-      sha256 "1a680dc286ca5cc72c93a35ddec771767973f6b2e2770cdcafd7a0b6f3c3d05a"
+      url "https://github.com/colibrisec/ojo/releases/download/v0.0.7/ojo_v0.0.7_darwin_arm64"
+      sha256 "301598664c7aa891e97abeea6e176b2cab9323bee1695cd20f76c3d8515d6f60"
     else
-      url "https://github.com/colibrisec/ojo/releases/download/v0.0.6/ojo_v0.0.6_darwin_amd64"
-      sha256 "3c1d35edf13061fe20d006d3d0c799aff2e6f5e44605e426d087b35c50e85415"
+      url "https://github.com/colibrisec/ojo/releases/download/v0.0.7/ojo_v0.0.7_darwin_amd64"
+      sha256 "523dcc850840de515f6f178e88aad558dd96ded33c4a652ef4539934efea4a5a"
     end
   end
 
